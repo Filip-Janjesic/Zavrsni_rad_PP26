@@ -71,7 +71,7 @@ create table dijaprojekcija(
 
 	sifra int primary key auto_increment not null,
 	slika varchar(255) not null,
-	vsifraljivo varchar (1) 
+	vidljivo varchar (1) 
 
 );
 
