@@ -1,5 +1,5 @@
 # c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 <C:\Users\Filip\Documents\Edunova-2022\Zavrsni_rad_PP26\sql\webshop.sql
-
+# c:\xampp\mysql\bin\mysql -uroot --default_character_set=utf8 <C:\Users\Polaznik\Documents\Zavrsni_rad_PP26\sql\webshop.sql
 drop database if exists webshop;
 create database webshop default character set utf8mb4;
 use webshop;
@@ -21,7 +21,8 @@ create table korisnik (
     ime varchar(50) not null,
     prezime varchar(50) not null,
     lozinka char(50) not null,
-    email varchar(50) not null
+    email varchar(50) not null,
+    administrator int not null
 
 );
 
